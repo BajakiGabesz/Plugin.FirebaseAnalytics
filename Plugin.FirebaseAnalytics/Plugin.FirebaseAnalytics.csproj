@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="MSBuild.Sdk.Extras/2.1.2">
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid90;MonoAndroid10.0</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid10.0</TargetFrameworks>
         <AssemblyName>Plugin.FirebaseAnalytics</AssemblyName>
         <RootNamespace>Plugin.FirebaseAnalytics</RootNamespace>
         <PackageId>Plugin.FirebaseAnalytics</PackageId>
         <Product>$(AssemblyName) ($(TargetFramework))</Product>
-        <Version>4.1.0</Version>
-        <PackageVersion>4.1.0</PackageVersion>
+        <Version>4.2.0</Version>
+        <PackageVersion>4.2.0</PackageVersion>
         <PackOnBuild>true</PackOnBuild>
         <NeutralLanguage>en</NeutralLanguage>
         <DefineConstants>$(DefineConstants);</DefineConstants>
@@ -16,14 +16,14 @@
         <LangVersion>latest</LangVersion>
         <DebugType>portable</DebugType>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/f-miyu/Plugin.FirebaseAnalytics</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/f-miyu/Plugin.FirebaseAnalytics</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/VieXam/Plugin.FirebaseAnalytics</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/VieXam/Plugin.FirebaseAnalytics</RepositoryUrl>
         <PackageTags>xamarin, ios, android, xamarin.forms, plugin, firebase, analytics</PackageTags>
         <Title>Firebase Analytics Plugin for Xamarin</Title>
         <Description>Cross platform plugin for Firebase Analytics</Description>
-        <Owners>f-miyu</Owners>
-        <Authors>f-miyu</Authors>
-        <Copyright>Copyright (c) 2018 f-miyu</Copyright>
+        <Owners>VieXam Community</Owners>
+        <Authors>VieXam Community</Authors>
+        <Copyright>Copyright (c) 2021 VieXam Community</Copyright>
         <DisableExtraReferences>true</DisableExtraReferences>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -42,7 +42,7 @@
     </ItemGroup>
     <ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
         <Compile Include="Android\**\*.cs" />
-        <PackageReference Include="Xamarin.Firebase.Analytics" Version="117.4.1" PrivateAssets="contentFiles;analyzers" />
+        <PackageReference Include="Xamarin.Firebase.Analytics" Version="119.0.0" PrivateAssets="contentFiles;analyzers" />
         <PackageReference Include="Plugin.CurrentActivity" Version="2.1.0.4" />
     </ItemGroup>
     <ItemGroup Condition=" $(TargetFramework.StartsWith('Xamarin.iOS')) ">
