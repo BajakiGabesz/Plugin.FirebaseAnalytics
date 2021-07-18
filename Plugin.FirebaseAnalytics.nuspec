@@ -4,13 +4,13 @@
     <id>Plugin.FirebaseAnalytics</id>
     <version>4.2.0</version>
     <title>Firebase Analytics Plugin for Xamarin</title>
-    <authors>ViewXam Community</authors>
+    <authors>VieXam Community</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <projectUrl>https://github.com/VieXam/Plugin.FirebaseAnalytics</projectUrl>
     <description>Cross platform plugin for Firebase Analytics</description>
-    <copyright>Copyright (c) 2021 ViewXam Community</copyright>
+    <copyright>Copyright (c) 2021 VieXam Community</copyright>
     <tags>xamarin, ios, android, xamarin.forms, plugin, firebase, analytics</tags>
     <repository url="https://github.com/VieXam/Plugin.FirebaseAnalytics" />
     <dependencies>
