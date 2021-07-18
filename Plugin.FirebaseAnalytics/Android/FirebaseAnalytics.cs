@@ -13,7 +13,7 @@ namespace Plugin.FirebaseAnalytics
         [Obsolete("deprecated")]
         public static void SetMinimumSessionDuration(long milliseconds)
         {
-            AnalyticsProvider.GetAnalytics().SetMinimumSessionDuration(milliseconds);
+            AnalyticsProvider.GetAnalytics().SetSessionTimeoutDuration(milliseconds);
         }
 
         [Obsolete("Use IFirebaseAnalytics#SetSessionTimeoutDuration(long)instead.")]
