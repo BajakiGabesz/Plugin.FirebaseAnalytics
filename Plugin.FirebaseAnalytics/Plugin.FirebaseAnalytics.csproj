@@ -16,8 +16,8 @@
         <LangVersion>latest</LangVersion>
         <DebugType>portable</DebugType>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/VieXam/Plugin.FirebaseAnalytics</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/VieXam/Plugin.FirebaseAnalytics</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/BajakiGabesz/Plugin.FirebaseAnalytics.git</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/BajakiGabesz/Plugin.FirebaseAnalytics.git</RepositoryUrl>
         <PackageTags>xamarin, ios, android, xamarin.forms, plugin, firebase, analytics</PackageTags>
         <Title>Firebase Analytics Plugin for Xamarin</Title>
         <Description>Cross platform plugin for Firebase Analytics</Description>
