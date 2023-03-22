@@ -6,8 +6,8 @@
         <RootNamespace>Plugin.FirebaseAnalytics</RootNamespace>
         <PackageId>Plugin.FirebaseAnalytics</PackageId>
         <Product>$(AssemblyName) ($(TargetFramework))</Product>
-        <Version>4.3.0</Version>
-        <PackageVersion>4.3.0</PackageVersion>
+        <Version>4.4.0</Version>
+        <PackageVersion>4.4.0</PackageVersion>
         <PackOnBuild>true</PackOnBuild>
         <NeutralLanguage>en</NeutralLanguage>
         <DefineConstants>$(DefineConstants);</DefineConstants>
@@ -48,5 +48,6 @@
     <ItemGroup Condition=" $(TargetFramework.StartsWith('Xamarin.iOS')) ">
         <Compile Include="iOS\**\*.cs" />
       <PackageReference Include="Xamarin.Firebase.iOS.Analytics" Version="8.10.0.3" />
+      <PackageReference Include="Xamarin.Firebase.iOS.InstanceID" Version="4.8.0" />
     </ItemGroup>
 </Project>
